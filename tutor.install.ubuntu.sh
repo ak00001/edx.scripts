@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/bin/sh
+
+set -eu
+
 #---------------------------------------------------------
 # original script by:   https://github.com/lpm0073
 #                       
