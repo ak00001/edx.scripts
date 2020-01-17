@@ -1,7 +1,4 @@
-#!/bin/sh
-
-set -eu
-
+#!/bin/bash
 #---------------------------------------------------------
 # original script by:   https://github.com/lpm0073
 #                       
@@ -11,7 +8,7 @@ set -eu
 # date:       january 20, 2020
 #
 # usage:      Install Tutor and its prerequisites.
-#             curl -sSL https://raw.githubusercontent.com/ak00001/edx.scripts/master/tutor.install.sh | bash -e
+#             curl -sSL https://raw.githubusercontent.com/ak00001/edx.scripts/master/tutor.install.ubuntu.sh | bash -e
 #
 # reference:  https://docs.tutor.overhang.io/quickstart.html
 #
