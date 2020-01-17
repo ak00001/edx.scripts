@@ -1,26 +1,28 @@
 #!/bin/bash
 #---------------------------------------------------------
-# written by: lawrence mcdaniel
-#             https://lawrencemcdaniel.com
-#             https://blog.lawrencemcdaniel.com
+# original script by:   lawrence mcdaniel
+#                       https://lawrencemcdaniel.com
+#                       https://blog.lawrencemcdaniel.com
 #
-# date:       march 21, 2019
+# here adapted by:      NTNU Beta v/Andreas Krokan
+#
+# date:       january 20, 2020
 #
 # usage:      Install Tutor and its prerequisites.
-#             curl -sSL https://raw.githubusercontent.com/lpm0073/edx.scripts/master/tutor.install.sh | bash -e
+#             curl -sSL https://raw.githubusercontent.com/ak00001/edx.scripts/master/tutor.install.sh | bash -e
 #
 # reference:  https://docs.tutor.overhang.io/quickstart.html
 #
 # Notes:
-#     AWS EC2 | t2-large | 50gb ebs | Ubuntu 16.04
+#     
+#     NTNU IT Halvadministrert Linux / VMWare | 49GiB | 8Gib DIMM DRAM EDO | Ubuntu 18.04.3 LTS bionic 
 #
-#     Add dns records before your run this script. All of your dns records
-#     should be 'A' records and should point to the same IP address.
-#      - Root:        tutor.lawrencemcdaniel.com
-#      - LMS:         tutor-lms.lawrencemcdaniel.com
-#      - LMS preview: preview.tutor-lms.lawrencemcdaniel.com
-#      - Notes:       notes.tutor-lms.lawrencemcdaniel.com
-#      - CMS:         tutor-studio.lawrencemcdaniel.com
+#      - Root:        kursutvikling.it.ntnu.no
+#      - LMS:         kursutvikling.it.ntnu.no
+#      - LMS preview: preview.kursutvikling.it.ntnu.no (alias)
+#      - Notes:       notes.kursutvikling.it.ntnu.no (alias)
+#      - CMS:         studio.kursutvikling.it.ntnu.no (alias)
+#
 #
 # Trouble Shooting:
 #     ~/.local/share/tutor/env/apps/openedx/config
