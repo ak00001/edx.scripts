@@ -27,7 +27,7 @@
 #     ~/.local/share/tutor/env/apps/openedx/config
 #     tutor local logs nginx
 #---------------------------------------------------------
-
+#
 #Install Docker: https://docs.docker.com/install/linux/docker-ce/ubuntu/
 #================================
 # this line looks for, and remove any existing installation of docker.
@@ -40,7 +40,7 @@ sudo apt-get install -y \
     gnupg-agent \
     software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
+#
 # check install
 sudo apt-key fingerprint 0EBFCD88
 sudo add-apt-repository \
@@ -55,10 +55,11 @@ sudo -H -u root bash << EOF
 # test Docker installation
 docker run hello-world
 EOF
-
+#
 #Install Docker Composer: https://docs.docker.com/compose/install/
 #================================
 sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 # test installation
 docker-compose --version
+#
