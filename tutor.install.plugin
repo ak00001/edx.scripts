@@ -8,7 +8,7 @@
 #
 # Install plugin via PIP
 echo "Starting to install packages, Yippie. Kaye. Yay...." 
-sudo pip install https://github.com/NTNUbeta/tutor-digit-config.git \
+pip install git+https://github.com/NTNUbeta/tutor-digit-config \
 tutor plugins enable digit-config \
 tutor config save
 #
