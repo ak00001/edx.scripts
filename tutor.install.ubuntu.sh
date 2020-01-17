@@ -1,8 +1,7 @@
 #!/bin/bash
 #---------------------------------------------------------
-# original script by:   lawrence mcdaniel
-#                       https://lawrencemcdaniel.com
-#                       https://blog.lawrencemcdaniel.com
+# original script by:   https://github.com/lpm0073
+#                       
 #
 # here adapted by:      NTNU Beta v/Andreas Krokan
 #
@@ -63,16 +62,3 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 # test installation
 docker-compose --version
-
-
-#Install Tutor: https://docs.tutor.overhang.io/install.html
-#================================
-sudo curl -L "https://github.com/overhangio/tutor/releases/download/v3.6.0/tutor-$(uname -s)_$(uname -m)" -o /usr/local/bin/tutor
-sudo chmod +x /usr/local/bin/tutor
-
-echo "===================================================================="
-echo
-echo
-echo "Finished. To continue type:"
-echo "'sudo su - $USER<enter>'"
-echo "'tutor local quickstart'"
