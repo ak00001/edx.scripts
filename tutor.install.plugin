@@ -4,7 +4,7 @@
 # date:  jan 20. 2020
 #
 # usage:    Install plugin for Tutor configuration: tutor-digit-config
-#
+#           curl -sSL https://raw.githubusercontent.com/ak00001/edx.scripts/master/tutor.install.plugin.sh | bash -e
 #
 # Install plugin via PIP
 echo "Starting to install packages, Yippie. Kaye. Yay...." 
