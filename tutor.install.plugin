@@ -13,6 +13,6 @@ pip install -e git+https://github.com/NTNUbeta/tutor-digit-config#egg=tutor-digi
 tutor plugins enable digit-config
 tutor config save
 Echo 'The digit-config plugin has been installed. Please run "tutor plugins list" to verify.'
-Print 'tutor plugins list'
+Echo "'tutor plugins list'"
 #
 
