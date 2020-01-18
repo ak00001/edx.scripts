@@ -12,5 +12,6 @@ pip install --upgrade pip
 pip install -e git+https://github.com/NTNUbeta/tutor-digit-config#egg=tutor-digit-config
 tutor plugins enable digit-config
 tutor config save
+tutor plugins list
 #
 
