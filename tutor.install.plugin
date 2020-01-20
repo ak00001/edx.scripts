@@ -3,7 +3,7 @@
 #
 # date:  jan 20. 2020
 #
-# usage:    Install plugin for Tutor configuration: tutor-digit-config
+# usage:    Install and enable plugin for Tutor configuration: tutor-digit-config
 #           curl -sSL https://raw.githubusercontent.com/ak00001/edx.scripts/master/tutor.install.plugin | bash -e
 #
 # Install plugin via PIP
@@ -13,7 +13,7 @@ pip install -e git+https://github.com/NTNUbeta/tutor-digit-config#egg=tutor-digi
 tutor plugins enable digit-config
 tutor config save
 tutor plugins list \
-Echo "The Tutor plugin has been installed and activated. Please look to the plugins list above to verify its activation"
+Echo "The plugin has been installed and enabled. Please look to the plugins list, above, to verify its activation"
 Echo "=============================================================================================="
 Echo "You should now rebuild the Open edX image: 'tutor images build openedx' and then 'tutor local quickstart'."
 
