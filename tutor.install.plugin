@@ -12,8 +12,5 @@ pip install --upgrade pip
 pip install -e git+https://github.com/NTNUbeta/tutor-digit-config#egg=tutor-digit-config
 tutor plugins enable digit-config
 tutor config save
-tutor plugins list \
-Echo "The plugin has been installed and enabled. Please look to the plugins list, above, to verify its activation"
-Echo "=============================================================================================="
-Echo "You should now rebuild the Open edX image: 'tutor images build openedx' and then 'tutor local quickstart'."
+tutor plugins list
 
